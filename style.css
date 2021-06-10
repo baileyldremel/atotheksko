@@ -1,0 +1,101 @@
+
+@font-face {
+  font-family: Raleway;
+  src: url(data/fonts/Raleway.ttf);
+}
+
+body {
+  background-color: #262626;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 400;
+  color: white;
+  padding:0;
+  margin:0;
+}
+
+header{
+  display: inline-flex;
+  position: fixed;
+  align-items: center;
+  justify-content: flex-start;
+  height: 8vh;
+  width:100%;
+  border-bottom: 2px solid white;
+  background-color: inherit;
+}
+
+h1 {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 2em;
+  background: transparent;
+  font-weight: 200;
+  color: white;
+  border:none;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+button {
+  height: 18vw;
+  width: 18vw;
+  min-width: 200px;
+  min-height: 200px;
+  font-family: "Raleway", "Arial", sans-serif;
+  padding: 1vh;
+  margin:2vh;
+  transition: width 0.5s, height 0.5s;
+}
+
+button:hover {
+  height: 22vw;
+  width: 22vw;
+  cursor: pointer;
+}
+
+#push{
+  margin:4vh;
+}
+.content{
+  padding-top: 10vh;
+  margin:0 4vh 0 4vh;
+}
+
+.cards {
+  display: flex;
+  align-items: stretch;
+  justify-content:space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cards img {
+  width:95%;
+  height:auto;
+}
+
+#hoc {
+  background-color: #0000ff;
+}
+
+#exp{
+  background-color: #ff0000;
+}
+
+#sdw{
+  background-color: #363636;
+}
+
+#t10{
+  background-color: #00ff00;
+
+}
+.cards::after {
+  margin-bottom: 4vh;
+}
+
+.row::after{
+  content: "";
+  clear:both;
+}
