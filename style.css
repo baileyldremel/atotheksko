@@ -33,6 +33,22 @@ h1 {
   border:none;
 }
 
+h4{
+  font-size: 1.2em;
+}
+
+footer{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:10vh;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #ededed;
+}
+
+
 p {
   font-size: 1.5em;
 }
@@ -84,7 +100,7 @@ button:hover {
 }
 
 #sdw{
-  background-color: #363636;
+  background-color: #9e9e9e;
 }
 
 #t10{
